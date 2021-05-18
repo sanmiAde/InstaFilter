@@ -13,6 +13,7 @@
 		869F3BBD264F94B50090EA99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869F3BBC264F94B50090EA99 /* Preview Assets.xcassets */; };
 		869F3BC8264F94B50090EA99 /* InstaFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F3BC7264F94B50090EA99 /* InstaFilterTests.swift */; };
 		869F3BD3264F94B50090EA99 /* InstaFilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F3BD2264F94B50090EA99 /* InstaFilterUITests.swift */; };
+		86CBE2D82653720100F0E14C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CBE2D72653720100F0E14C /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		869F3BCE264F94B50090EA99 /* InstaFilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaFilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		869F3BD2264F94B50090EA99 /* InstaFilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaFilterUITests.swift; sourceTree = "<group>"; };
 		869F3BD4264F94B50090EA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86CBE2D72653720100F0E14C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				869F3BB9264F94B50090EA99 /* Assets.xcassets */,
 				869F3BBE264F94B50090EA99 /* Info.plist */,
 				869F3BBB264F94B50090EA99 /* Preview Content */,
+				86CBE2D72653720100F0E14C /* ImagePicker.swift */,
 			);
 			path = InstaFilter;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86CBE2D82653720100F0E14C /* ImagePicker.swift in Sources */,
 				869F3BB8264F94B40090EA99 /* ContentView.swift in Sources */,
 				869F3BB6264F94B40090EA99 /* InstaFilterApp.swift in Sources */,
 			);
